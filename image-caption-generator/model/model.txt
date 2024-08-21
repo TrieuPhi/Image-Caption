@@ -1,0 +1,2 @@
+bạn có thể tự training model, hoặc tải model được tranning sẵn ở đây.
+https://drive.google.com/drive/folders/1dma0znofVVsTOMK2ONMCLGuFIr0NnzZ2?usp=sharing
