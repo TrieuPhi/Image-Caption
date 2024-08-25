@@ -69,7 +69,7 @@ Tải xuống bộ dữ liệu từ [Kaggle](https://www.kaggle.com/adityajn105/
 Dự án này được viết bằng Python 3.10.12. Nếu bạn chưa cài đặt Python, bạn có thể tải xuống từ [trang web chính thức](https://www.python.org/downloads/). Nếu bạn đang sử dụng phiên bản cũ hơn của Python, bạn có thể nâng cấp nó bằng cách sử dụng trình quản lý gói pip, cái mà đã được cài đặt sẵn nếu bạn đang sử dụng Python 2 >=2.7.9 hoặc Python 3 >=3.4 trên hệ thống của bạn.
 Để cài đặt các gói và thư viện cần thiết, bạn có thể sử dụng pip và tệp requirements.txt được cung cấp. Đầu tiên, sao chép kho lưu trữ này về máy tính của bạn bằng lệnh sau:
 ```
-https://github.com/Sajid030/image-caption-generator.git
+git clone https://github.com/TrieuPhi/Image-Caption
 ```
 Sau khi bạn đã sao chép kho lưu trữ, hãy điều hướng đến thư mục dự án và chạy lệnh sau trong terminal hoặc command prompt:
 ```bash
