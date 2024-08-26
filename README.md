@@ -37,7 +37,7 @@ Dưới đây là bản dịch tiếng Việt của file Markdown bạn cung c�
 - Vui lòng xem xét tặng ⭐ cho kho lưu trữ nếu bạn thấy ứng dụng này hữu ích.
 - Một bản xem trước nhanh của ứng dụng **Image Caption Generator**:
 
-[![Caption Generator Demo](https://img.youtube.com/vi/7H2HXKssyv0/0.jpg)](https://youtu.be/7H2HXKssyv0)
+[![Caption Generator Demo]](https://youtu.be/7H2HXKssyv0)
 
 ## Tổng Quan
 
@@ -68,13 +68,17 @@ Tải xuống bộ dữ liệu từ [Kaggle](https://www.kaggle.com/adityajn105/
 
 Dự án này được viết bằng Python 3.10.12. Nếu bạn chưa cài đặt Python, bạn có thể tải xuống từ [trang web chính thức](https://www.python.org/downloads/). Nếu bạn đang sử dụng phiên bản cũ hơn của Python, bạn có thể nâng cấp nó bằng cách sử dụng trình quản lý gói pip, cái mà đã được cài đặt sẵn nếu bạn đang sử dụng Python 2 >=2.7.9 hoặc Python 3 >=3.4 trên hệ thống của bạn.
 Để cài đặt các gói và thư viện cần thiết, bạn có thể sử dụng pip và tệp requirements.txt được cung cấp. Đầu tiên, sao chép kho lưu trữ này về máy tính của bạn bằng lệnh sau:
+
 ```
 https://github.com/Sajid030/image-caption-generator.git
 ```
+
 Sau khi bạn đã sao chép kho lưu trữ, hãy điều hướng đến thư mục dự án và chạy lệnh sau trong terminal hoặc command prompt:
+
 ```bash
 pip install -r requirements.txt
 ```
+
 Lệnh này sẽ cài đặt tất cả các gói và thư viện cần thiết để chạy dự án.
 
 ## Triển Khai Trên Streamlit
@@ -84,12 +88,14 @@ Lệnh này sẽ cài đặt tất cả các gói và thư viện cần thiết 
 3. Đăng nhập vào Streamlit Sharing và tạo một ứng dụng mới.
 4. Kết nối tài khoản GitHub của bạn với Streamlit Sharing và chọn kho lưu trữ này.
 5. Đặt các biến cấu hình sau trong bảng điều khiển Streamlit Sharing:
+
 ```
 [server]
 headless = true
 port = $PORT
 enableCORS = false
 ```
+
 6. Nhấp vào "Deploy app" để triển khai ứng dụng trên Streamlit Sharing.
 
 ## Cây Thư Mục
@@ -97,9 +103,9 @@ enableCORS = false
 ```
 |---image-caption-generator
 |       data
-|       model 
+|       model
 |       streamlit
-|       tranning
+|       trainning
 |       requirements.txt
 ```
 
