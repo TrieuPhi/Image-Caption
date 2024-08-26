@@ -70,7 +70,7 @@ Dự án này được viết bằng Python 3.10.12. Nếu bạn chưa cài đ�
 Để cài đặt các gói và thư viện cần thiết, bạn có thể sử dụng pip và tệp requirements.txt được cung cấp. Đầu tiên, sao chép kho lưu trữ này về máy tính của bạn bằng lệnh sau:
 
 ```
-https://github.com/Sajid030/image-caption-generator.git
+git clone https://github.com/TrieuPhi/Image-Caption
 ```
 
 Sau khi bạn đã sao chép kho lưu trữ, hãy điều hướng đến thư mục dự án và chạy lệnh sau trong terminal hoặc command prompt:
